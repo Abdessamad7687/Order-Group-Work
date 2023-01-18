@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Constants from "./utilities/Constants";
 import PostCreateForm from "./components/PostCreateForm";
 import PostUpdateForm from "./components/PostUpdateForm";
+import login from "./login";
 
 export default function App() {
   const [posts, setPosts] = useState([]);
@@ -68,13 +69,13 @@ export default function App() {
 
   function renderPostsTable() {
     return (
-      <div className="table-responsive mt-5">
-        <table className="table table-bordered border-dark">
+      <div className="table-responsive mt-5 col-md-12">
+        <table className="table table-hover w-100">
           <thead>
             <tr>
               <th scope="col">ID (PK)</th>
-              <th scope="col">Titre</th>
               <th scope="col">La Tâche</th>
+              <th scope="col">Dévloppeur</th>
               <th scope="col">Actions</th>
             </tr>
           </thead>
@@ -85,8 +86,8 @@ export default function App() {
                 <td>{post.title}</td>
                 <td>{post.content}</td>
                 <td>
-                  <button onClick={() => setPostCurrentlyBeingUpdated(post)} className="btn btn-dark btn-lg mx-3 my-3">Mettre a jour</button>
-                  <button onClick={() => { if(window.confirm(`Are you sure you want to delete the post titled "${post.title}"?`)) deletePost(post.postId) }} className="btn btn-secondary btn-lg">Supprimer</button>
+                  <button onClick={() => setPostCurrentlyBeingUpdated(post)} className="btn btn-dark mx-3 my-3">Mettre a jour</button>
+                  <button onClick={() => { if(window.confirm(`Supprimer le post? "${post.title}"?`)) deletePost(post.postId) }} className="btn btn-danger">Supprimer</button>
                 </td>
               </tr>
             ))}

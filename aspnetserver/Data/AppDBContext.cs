@@ -18,7 +18,7 @@ namespace aspnetserver.Data
                 {
                     PostId = i,
                     Title = $"Post {i}",
-                    Content = $"This is post {i} and it has some very interesting content. I have also liked the video and subscribed."
+                    Content = $""
                 };
             }
 
