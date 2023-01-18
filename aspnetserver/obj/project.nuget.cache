@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "izQdtDfKRjQ8Tfox3tXWYJQ7S0u3ajuHi7AW70FpTz+xCBG+JrU7Ba+b4MmjW0m2wYsaLJyHAWfdb6cKSS8Nlg==",
+  "dgSpecHash": "Itg8S9ISBA1sfe0u3VxixPeFg8QVk37NTjXB/vJOClrBYpqhx3dcPTteDId3w7G5ir28MVmeXZKvaArTyJYrGQ==",
   "success": true,
-  "projectFilePath": "D:\\.Net\\ASPNetCoreReact\\aspnetserver\\aspnetserver.csproj",
+  "projectFilePath": "D:\\.Net\\Tasks Management\\aspnetserver\\aspnetserver.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Abdesamad\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Abdesamad\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.0\\microsoft.data.sqlite.core.6.0.0.nupkg.sha512",

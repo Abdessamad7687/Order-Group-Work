@@ -1436,21 +1436,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.Net\\ASPNetCoreReact\\aspnetserver\\aspnetserver.csproj",
+      "projectUniqueName": "D:\\.Net\\Tasks Management\\aspnetserver\\aspnetserver.csproj",
       "projectName": "aspnetserver",
-      "projectPath": "D:\\.Net\\ASPNetCoreReact\\aspnetserver\\aspnetserver.csproj",
+      "projectPath": "D:\\.Net\\Tasks Management\\aspnetserver\\aspnetserver.csproj",
       "packagesPath": "C:\\Users\\Abdesamad\\.nuget\\packages\\",
-      "outputPath": "D:\\.Net\\ASPNetCoreReact\\aspnetserver\\obj\\",
+      "outputPath": "D:\\.Net\\Tasks Management\\aspnetserver\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Abdesamad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Abdesamad\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
